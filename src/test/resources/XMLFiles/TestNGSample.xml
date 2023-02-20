@@ -1,0 +1,10 @@
+<suite name="Jenkins Login test" parallel="none">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+    <test name="Test">
+        <classes>
+         <!--   <class name="" />  -->
+        </classes>
+    </test>
+</suite>
