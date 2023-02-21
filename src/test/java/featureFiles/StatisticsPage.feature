@@ -1,6 +1,6 @@
 Feature: Statistics page
 
-  @aboutPageTest
+  @statisticsPageTest
   Scenario: Statistics page control
 
     Given Navigate to KMF english page
