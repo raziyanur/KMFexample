@@ -5,4 +5,4 @@ Feature: About page
 
     Given Navigate to KMF english page
     Then click on About and navigate to About page
-    And User About page should be visible
+    And About page should be visible

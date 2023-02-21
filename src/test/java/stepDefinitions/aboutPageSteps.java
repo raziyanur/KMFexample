@@ -21,8 +21,8 @@ public class aboutPageSteps extends BaseFunctions {
         clickFunction(tn.getAbout());
     }
 
-    @And("User About page should be visible")
-    public void userAboutPageShouldBeVisible() {
+    @And("About page should be visible")
+    public void AboutPageShouldBeVisible() {
         verifyContainsText(tn.getWelcome(), "welcome");
     }
 }
