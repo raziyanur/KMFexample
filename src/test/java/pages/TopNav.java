@@ -16,6 +16,28 @@ public class TopNav extends BaseFunctions{
     @FindBy(xpath = "//div[contains(text(),'Welcome speech')]")
     private WebElement welcome;
 
+    @FindBy(xpath = "(//a[contains(text(),'Statistics')])[1]")
+    private WebElement statistics;
+
+    @FindBy(xpath = "//h1[contains(text(),'Statistics')]")
+    private WebElement statisticsControl;
+
+    public WebElement getStatisticsControl() {
+        return statisticsControl;
+    }
+
+    @FindBy(id = "ac-1")
+    private WebElement september2022;
+
+
+    public WebElement getSeptember2022() {
+        return september2022;
+    }
+
+    public WebElement getStatistics() {
+        return statistics;
+    }
+
     public WebElement getWelcome() {
         return welcome;
     }
